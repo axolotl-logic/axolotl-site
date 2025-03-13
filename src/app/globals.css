@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Makes class "dark" forces dark mode on children */
+@custom-variant dark (&:is(.dark *));
+
+@plugin "@tailwindcss/typography";
